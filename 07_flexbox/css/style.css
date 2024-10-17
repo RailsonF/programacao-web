@@ -1,0 +1,38 @@
+body {
+    background-color: #222;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: white;
+}
+
+section {
+    /*background-color: green;*/
+}
+
+section a {
+    color: rgb(194, 191, 26);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: blueviolet;*/
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+
+
+ul li {}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}

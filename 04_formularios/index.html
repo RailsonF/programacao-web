@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIOS</title>
+</head>
+
+<body style="background-color: rgb(189, 216, 235)">
+    <header>
+        <h1>Formulários</h1>
+
+        <section>
+            <form method="get" action="destino.html">
+                <div>
+                    <label for="">Digite seu nome:</label>
+                    <input type="text" name="nome_completo" id="" placeholder="Digite seu nome completo">
+
+                </div>
+                <div>
+                    <label for="">Digite sua idade:</label>
+                    <input type="number" name="idade" placeholder="Digite sua idade">
+                </div>
+                <div>
+                    <label for="">Digite seu email:</label>
+                    <input type="email" name="email" id="" placeholder="EX:Railson@gmail.com">
+                </div>
+                <div>
+                    <label for="">Informe sua data de nascimento:</label>
+                    <input type="date" name="data_nascimento">
+                </div>
+                <div>
+                    <label for="">Digite sua senha:</label>
+                    <input type="password" name="senha" placeholder="Digite sua senha">
+                </div>
+
+                <h3>Dados de entrega</h3>
+                <label for="">Escolha a cidade de entrega</label>
+                <select name="Cidade" id="" placeholder="Cidade">
+                    <option value="BS">Brejo Santo</option>
+                    <option value="JDN">Juazeiro</option>
+                    <option value="CR">Crato</option>
+                    <option value="MV">Missão Velha</option>
+                </select>
+
+                <div>
+                    <label for="">logradouro:</label>
+                    <input type="radio" name="zona" value="rural"> Zona rural
+                    <input type="radio" name="zona" value="urbana"> Zona urbana:
+                </div>
+
+                <div>
+                    <label for="">Quem pode receber?</label>
+                    <input type="checkbox" name="portador" value="mae">Mãe
+                    <input type="checkbox" name="portador" value="irma"> Irmão
+                    <input type="checkbox" name="portador" value="Vizinho"> Vizinho
+                </div>
+                <div>
+                    <input type="submit"> <!--Envia os dados-->
+                    <input type="reset" name="" id=""> <!--Reseta os dados-->
+                    <button type="submit">Enviar</button> <!--Também envia os dados-->
+
+                </div>
+            </form>
+        </section>
+
+
+        <footer>
+            <p>&copy; Todos os direitos reservados - Railson Furtado</p>
+        </footer>
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

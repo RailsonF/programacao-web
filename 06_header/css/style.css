@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+header {
+    background-color: #6F2EFE;
+    height: 60px;
+}
+
+button {
+    margin: 18px 50 px 0px 50px;
+}
+
+header main {
+    width: 800px;
+    margin: 0px auto
+}
+
+header main figure img {
+    width: 54px;
+    height: 54px;
+}
+
+header main figure {
+    float: left;
+}
+
+header main nav a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header main nav {
+    float: left;
+    margin: 18px 50px 0px 50px
+}
+
+header main nav a {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none\;
+}
