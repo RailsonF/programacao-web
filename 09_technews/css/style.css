@@ -57,17 +57,17 @@ header section>a {
     text-decoration: none;
 }
 
-main section{
+main section {
     width: 1312px;
     margin: 64px auto;
 }
 
-main header{
+main header {
     padding: 0px;
     text-align: center;
 }
 
-main header small{
+main header small {
     padding: 8px;
     background-color: var(--amarelo);
     font-size: 14px;
@@ -75,24 +75,25 @@ main header small{
     color: var(--preto);
 }
 
-main header p{
+main header p {
     font-size: 14px;
     color: var(--cinza);
     max-width: 354px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-main header h1{
+main header h1 {
     font-size: 48px;
     padding: 8px 8px;
 
 }
-main section > section{
+
+main section>section {
     flex-wrap: wrap;
     gap: 32px;
 }
 
-main section .card{
+main section .card {
     width: 368px;
     padding: 24px;
     gap: 16px;
@@ -102,40 +103,26 @@ main section .card{
     border-radius: 8px;
 }
 
-main section .card a{
+main section .card a {
     color: var(--preto);
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
 
-main section .card p{
+main section .card p {
     color: var(--cinza);
     font-size: 14px;
 }
 
-main section .card:hover{
+main section .card:hover {
     background-color: var(--preto);
-    width: 400px;
-    height: 400px;
+    height: 390px;
 }
 
-main section .card a:hover{
+main section .card a:hover {
     color: var(--branco);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     text-align: center;

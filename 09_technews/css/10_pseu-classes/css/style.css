@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+div.circulo {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+/*Essa pseudo indica que apenas o elemnto especificado entro os parênteses vai receber a propriedade definida entre as chaves*/
+section div:nth-child(5){
+    background-color: rgb(149, 233, 14);
+} 
+/*Essa pseudo classe indica que quando o mouse for passado sobre o elemnto ele irá rceber a propriedade definida entre as chaves*/
+section div:hover{
+background-color: rgb(105, 92, 92);
+
+}
+
+/*Essa pseudo classe indica que apenas esse elemento não vai receber a proprieade que for definida entre as chaves (APENAS O ELEMNTO 3 NÃO VAI SER VERMELHO)*/
+section div:not( :nth-child(3)){
+    background-color: red; 
+}
+/*Essa pseudo classe vai adicionar um elemento antes do primeiro eemento div */
+section div:first-child::before{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    content: ;
+    display: block;
+}
