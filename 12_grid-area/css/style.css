@@ -1,26 +1,41 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.header{
-
+main{
+    display: grid;
+    grid-template-areas: 
+    "header header  header"
+    "navigation navigation navigation"
+    "content content aside" 
+    "footer footer footer";
+}
+div{
+    height: 100px;
+    font-size: 50px;
+}
+.header {
+    background-color: aqua;
+    grid-area: header;
 }
 
-.navigation{
-
+.navigation {
+    background-color: blue;
+    grid-area: navigation;
 }
 
-.content{
-
-}
-.content{
-
+.content {
+    background-color: chocolate;
+    grid-area: content;
 }
 
-.aside{
-
+.aside {
+    background-color: darkgreen;
+    grid-area: aside;
 }
 
-.footer{
+.footer {
+    background-color: grey;
+    grid-area: footer;
 
 }
