@@ -38,6 +38,5 @@ section div:first-child::before{
     width: 10px;
     height: 10px;
     background-color: yellow;
-    content: ;
     display: block;
 }
