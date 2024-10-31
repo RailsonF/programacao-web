@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.centro{
+    margin: 3%;
+    width: 800px;
+    height: 900px;
+    background-color: rgb(55, 55, 209);
+    
+    
+}
+h1{
+text-align: center;
+padding: 40px;
+}
+input{
+    height: 4%;
+    border-radius: 10PX;
+    padding: 2px;
+    margin: 10px;
+    float: wid;
+}
